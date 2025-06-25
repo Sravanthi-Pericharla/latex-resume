@@ -1,0 +1,124 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage[top=0.7in, bottom=0.7in, left=0.7in, right=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{url}  % for \url{} in GitHub
+
+\setlength{\columnsep}{20pt}
+\setlength{\parskip}{0pt}
+\titlespacing{\section}{0pt}{4pt}{2pt}
+\titleformat{\section}{\bfseries\large\raggedright}{}{0em}{}
+
+\newcommand{\resumesection}[1]{%
+  \vspace{6pt}
+  \section*{#1}
+  \hrule\vspace{4pt}
+}
+
+\begin{document}
+
+% === Name and contact section ===
+{\LARGE \textbf{Pericharla Sravanthi}} \\[-1pt]
+
+\begin{tabularx}{\textwidth}{@{} l X @{\hspace{25pt}} l X @{\hspace{6pt}} l X @{}}
+\textcolor{black}{\faEnvelope} & \href{mailto:sravanthipericharla23@gmail.com}{sravanthipericharla23@gmail.com} &
+\textcolor{black}{\faPhone*}~ & \makebox[0pt][l]{8639831217} &
+\textcolor{black}{\faLinkedin} & \href{https://linkedin.com/in/sravanthi23}{linkedin.com/in/sravanthi23} \\
+\textcolor{black}{\faMapMarker*} & Kesanakurru &
+\textcolor{black}{\faGithub}~ & \href{https://github.com/Sravanthi-Pericharla}{\texttt{github.com/Sravanthi-Pericharla}} &
+&
+\end{tabularx}
+\resumesection{Career Objective}
+Seeking a position to utilize my knowledge,
+skills and abilities in the company that
+offers a competitive environment, a true
+profession put in the acquired knowledge
+and gain exposure to upcoming
+technologies while being resourceful,
+innovative and flexible.
+
+\resumesection{Education}
+\textbf{B.Tech in CSE}, GMR Institute of Technology \\
+CGPA: 9.42 (upto 5th semester) \hfill 2022 – 2026
+
+\textbf{Intermediate (MPC)}, Sri Aditya Junior College, Kakinada \\
+Percentage: 98.1\% \hfill 2020 – 2022
+
+\resumesection{Experience}
+\textbf{Cloud Computing Intern} — Hashtek Solutions \\
+Vishakapatnam, July 2024
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Managed EC2 instances, VPC configurations, and static site hosting on Amazon S3.
+    \item Set up PostgreSQL using RDS; implemented Auto Scaling, Load Balancer, and Bastion host for better reliability and security.
+\end{itemize}
+
+\resumesection{Projects}
+\textbf{Suspicious Individual Detection in Public Spaces} \hfill
+
+\href{https://github.com/Sravanthi-Pericharla/crowd_detection}{\texttt{[GitHub]}}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Designed a real-time surveillance system using YOLOv8 and DeepFace for individual recognition.
+    \item Built a full-stack web app using ReactJS frontend and Flask backend with SQLite for storing logs and data.
+    \item Integrated Twilio API to automatically alert authorities via SMS when criminals are detected in live video.
+    \item Ensured security with hashed face encodings and implemented efficient matching algorithms to reduce false positives.
+\end{itemize}
+
+
+
+
+\resumesection{Skills}
+\noindent\begin{minipage}{\textwidth}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Languages:} Python, Java, C
+    \item \textbf{Web:} HTML, CSS
+    \item \textbf{Tools:} SQLite
+    \item \textbf{Domains:} ML, DL, Cloud (AWS)
+    \item \textbf{CS Core:} DBMS, DSA, SQL
+    \item \textbf{Soft Skills:} Leadership, Teamwork
+\end{itemize}
+\end{multicols}
+\end{minipage}
+
+\resumesection{Certificates}
+\noindent\begin{minipage}{\textwidth}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Affective Computing – NPTEL
+    \item Cloud Computing – Hashtek
+    \item Data Analytics – EDX
+    \item Multicloud Associate – Aviatrix
+    \item Python Essentials – Cisco
+    \item OOP in Java – Coursera
+\end{itemize}
+\end{multicols}
+\end{minipage}
+
+\resumesection{Achievements}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Awarded the FFE Amazon Scholarship thrice for consistent academic excellence.
+    \item Completed the FFE Mentornship Program under guidance of a Microsoft professional, gaining real-world project exposure.
+    \item Selected for the prestigious FLY-Scholar program by CMI, USA, focused on leadership and cognitive growth.
+    \item Runner-up in Interdepartmental Badminton Tournament, GMRIT Annual Sports Day 2025.
+    \item Successfully organized college-level tech events as CSI Coordinator with 100+ participants.
+\end{itemize}
+
+\resumesection{Positions of Responsibility}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Secretary, CSI Student Chapter}, GMRIT (2024–25): Coordinated monthly technical events, communicated with faculty, and led the planning of workshops, coding contests, and student inductions.
+\end{itemize}
+
+
+\resumesection{Participations}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Code Wars 2023 – Competitive coding contest at GMRIT.
+    \item Datathon 2023 – Overnight analytics hackathon at GMRIT.
+\end{itemize}
+
+\end{document}
